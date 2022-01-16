@@ -1,0 +1,34 @@
+{
+  "name": "Koa2",
+  "version": "0.0.2",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "nick <2207952662@qq.com> (http://github.com/saynoon)",
+  "license": "MIT",
+  "dependencies": {
+    "@koa/router": "^10.1.1",
+    "axios": "^0.21.4",
+    "basic-auth": "^2.0.1",
+    "bcryptjs": "^2.4.3",
+    "cheerio": "^1.0.0-rc.10",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.13.1",
+    "koa-bodyparser": "^4.3.0",
+    "koa-static": "^5.0.0",
+    "lodash": "^4.17.21",
+    "module-alias": "^2.2.2",
+    "mysql2": "^2.3.2",
+    "require-directory": "^2.1.1",
+    "sequelize": "^6.7.0",
+    "validator": "^13.6.0"
+  },
+  "_moduleAliases": {
+    "@root": ".",
+    "@models": "app/models",
+    "@validator": "app/validators/validator.js"
+  }
+}
